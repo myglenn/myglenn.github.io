@@ -1,0 +1,15 @@
+{
+  "info": {
+    "label": "프로젝트 회고",
+    "description": "진행한 프로젝트의 기획, 구현, 회고 과정을 정리합니다."
+  },
+  "posts": [
+    {
+      "id": "",
+      "title": "",
+      "date": "",
+      "category": "",
+      "summary": ""
+    }
+  ]
+}

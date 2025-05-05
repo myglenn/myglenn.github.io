@@ -1,0 +1,8 @@
+[
+    { "id": "til", "name": "TIL" },
+    { "id": "cs", "name": "CS 기초" },
+    { "id": "trs", "name": "트러블슈팅" },
+    { "id": "web", "name": "웹 개발" },
+    { "id": "prj", "name": "프로젝트 회고" },
+    { "id": "tls", "name": "기술 기록" }
+  ]

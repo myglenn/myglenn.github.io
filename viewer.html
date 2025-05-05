@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        myBlog
+    </title>
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/contents.css" rel="stylesheet" />
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/logo.js"></script>
+    <script src="extUtils/marked.min.js"></script>
+    <script src="extUtils/purify.min.js"></script>
+    <script src="scripts/viewer.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <div class="header-actions">
+                <div class="header-actions left">
+                </div>
+                <h1 class="logo" id="logo"></h1>
+                <div class="header-actions right">
+                    <button aria-label="메뉴 열기" class="icon-button" id="menu-toggle">
+                        <svg aria-hidden="true" height="1.5rem" viewbox="0 0 24 24" width="1.5rem"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line stroke="currentColor" stroke-width="2" x1="4" x2="20" y1="6" y2="6">
+                            </line>
+                            <line stroke="currentColor" stroke-width="2" x1="4" x2="20" y1="12" y2="12">
+                            </line>
+                            <line stroke="currentColor" stroke-width="2" x1="4" x2="20" y1="18" y2="18">
+                            </line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="menu-panel" hidden="">
+                    <div class="menu-panel-header">
+                        <svg class="folder-icon" fill="currentColor" viewbox="0 0 24 24">
+                            <path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z">
+                            </path>
+                        </svg>
+                        <span>
+                            메뉴
+                        </span>
+                    </div>
+                    <ul class="menu-panel-list">
+                        <ul class="menu-panel-list" id="menu-panel-list"></ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="content-wrapper">
+        <section class="content-card">
+            <header class="content-header">
+                <h1 class="post-title">
+                    자료구조 총정리
+                </h1>
+                <p class="post-meta">
+                    2025.05.04 ·
+                    <span class="post-category">
+                        CS
+                    </span>
+                </p>
+                <p class="post-summary">
+                </p>
+            </header>
+            <article class="content" id="markdown-content">
+            </article>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <small>
+            ©  2025 myglenn / Sungmin G
+        </small>
+    </footer>
+</body>
+
+</html>

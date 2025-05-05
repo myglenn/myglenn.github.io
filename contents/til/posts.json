@@ -1,0 +1,15 @@
+{
+  "info": {
+    "label": "TIL",
+    "description": "하루 또는 짧은 시간 동안 배운 내용을 기록하는 학습 일지입니다."
+  },
+  "posts": [
+    {
+      "id": "",
+      "title": "",
+      "date": "",
+      "category": "",
+      "summary": ""
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+:root {
+    --color-accent: #38b2ac;
+    --color-bg-soft: rgba(56, 178, 172, 0.1);
+    --logo-bg-color: #ffffff; 
+
+  }
+
+  .contact-icon {
+    width: 1.1rem;
+    height: auto;
+  }
+
+  .GitHub {
+    content: url("../images/github-mark.svg");
+  }
+
+  .LinkedIn {
+    content: url("../images/LI-In-Bug.png");
+  }
+  
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --color-bg-soft: rgba(56, 178, 172, 0.15);
+      --color-fg: #e6f4f1;
+      --color-accent: #64d3c5;
+      --logo-bg-color: #0d1117; 
+    }
+  
+    .contact-links a {
+      border-color: var(--color-accent);
+      background-color: var(--color-bg-soft);
+      color: var(--color-accent);
+    }
+  
+    .contact-links a:hover {
+      background-color: var(--color-accent);
+      color: var(--color-bg);
+    }
+
+    .GitHub {
+      content: url("../images/github-mark-white.svg");
+    }
+
+    .LinkedIn {
+      content: url("../images/InBug-White.png");
+    }
+  }
+
+.about-me {
+    padding: 2rem 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .about-me h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-me p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .contact-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  
+  .contact-links li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .contact-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-bg-soft);
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    border-radius: 9999px;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: background 0.2s ease;
+    min-width: 5rem;
+    min-height: 2.2rem;
+    justify-content: center;
+    background-color: var(--logo-bg-color);
+  }
+  
+  .contact-links a:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+  }
+
+  .tech-tags {
+    padding: 2rem 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .tech-tags h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tag-list li {
+    background-color: var(--color-bg-soft);
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+    border-radius: 9999px;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  
+  .tag-list li:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+  }
+
+  .tech-tags {
+    padding: 2rem 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .tech-tags h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tag-list li {
+    background-color: var(--color-bg-soft);
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+    border-radius: 9999px;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  
+  .tag-list li:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+  }
+  
+  .career-timeline {
+    padding: 2rem 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .career-timeline h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .timeline {
+    position: relative;
+    border-left: 2px solid var(--color-accent);
+    padding-left: 1rem;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .timeline li {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .timeline li::before {
+    content: '';
+    position: absolute;
+    left: -0.65rem;
+    top: 0.4rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+  }
+  
+  .timeline-year {
+    font-weight: bold;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  .timeline-content {
+    background-color: var(--color-bg-soft);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .projects {
+    padding: 2rem 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .projects h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .project-list li {
+    background-color: var(--color-bg-soft);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-soft);
+    line-height: 1.6;
+    transition: background 0.2s ease;
+  }
+
+  .project-list a {
+    color: var(--color-accent);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .project-list li:hover {
+    background-color: var(--color-bg);
+  }
+  
+  .project-list strong {
+    font-size: 1.1rem;
+    color: var(--color-accent);
+  }
+  
+  .license-section {
+    padding: 2rem 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .license-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .license-accordion {
+    background-color: var(--color-bg-soft);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .license-toggle {
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+    color: var(--color-accent);
+    cursor: pointer;
+  }
+  
+  .license-content {
+    line-height: 1.7; 
+    padding: 1rem 1.25rem;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 0.9rem;
+    background-color: var(--color-bg);
+    border-top: 1px solid var(--color-border);
+    display: none;
+  }
+  
+  .license-content.show {
+    display: block;
+  }
+  
