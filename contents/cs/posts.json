@@ -5,11 +5,11 @@
   },
   "posts": [
     {
-      "id": "sample",
-      "title": "자료구조 총정리",
+      "id": "complement",
+      "title": "0과 1밖에 모르는 컴퓨터는 뺄셈을 이렇게 한다.",
       "date": "2025-05-04",
       "category": "CS",
-      "summary": "자료구조의 전반적인 개념과 핵심 원리를 한눈에 정리해보는 포스트입니다."
+      "summary": "보수(complement)에 대한 개념을 공부하고 정리합니다."
     }
   ]
 }
